@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+
+/* //navbar css */
+.logo{
+  width: 15%;
+}
+@media screen and (max-width:750px) {
+  .logo{
+    width: 30%;
+  }
+}
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  box-shadow: 0 8px 6px -6px rgb(229, 228, 228);
+  --webkit-box-shadow: 0 8px 6px -6px rgb(218, 211, 211);
+}
+
+.nav-link {
+  font-weight: 300 !important;
+}
+
+.active {
+  border-bottom: 2px solid #2e32f1;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-family: "roboto", sans-serif;
+  letter-spacing: 3px;
+}
+
+.search-form {
+  margin-right: 10px;
+  margin-top: 4px;
+}
+.search-form input {
+  border: none;
+  border-radius: 0;
+}
+.search-form button {
+  background-color: #2e32f1;
+  border-radius: 0;
+  color: white;
+}
+
+/* =============================
+==========footer============= */
+
+.footer {
+  color: white;
+  padding: 25px;
+  background: #2e32f1; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000);
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: #ffefba;
+  border-bottom: 1px solid #ffefba;
+}
+/* =================================
+======== page not found css ======= */
+.pnf {
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading {
+  font-weight: normal;
+}
+
+.pnf-btn {
+  color: #2e32f1;
+  border: 1px solid #2e32f1;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+.pnf-btn:hover {
+  background-color: #2e32f1;
+  color: white;
+}
+/* ========================================= */
+/* =========contact us ========= */
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ==================== */
+.product-link {
+  text-decoration: none !important;
+  color: #2626cf !important;
+}
+
+.cat-btn {
+  padding: 40px 0px;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.cat-btn:hover {
+  background-color: #2e32f1;
+  color: white;
+}
+/* ================
+====dashboard
+=================== */
+
+.dashboard {
+  margin-top: 100px !important;
+}
+
+.dashboard-menu h4 {
+  background-color: #2e32f1 !important;
+  color: white;
+  padding: 20px 0px;
+}
+/*footer css*/
+.footerContainer{
+  bottom: 0;
+  background-color:#20335c;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  color: #ffffff;
+}
+
+
+.Contact-Us-Section-card {
+  background-color: #f5f7fa;
+  padding: 30px;
+  height: 50vh;
+}
+
+.Contact-Us-Section-heading {
+  font-size: 30px;
+  font-family: roboto;
+  font-weight: 700;
+  color: #183b56;
+}
+
+.Contact-Us-Section-button {
+  font-size: 20px;
+  font-weight: 500;
+  border-color: #ff9f00;
+  color: #ff9f00;
+  background-color: #f5f7fa;
+  border-style: solid;
+  border-width: 2px;
+  width: 160px;
+  height: 45px;
+  margin-top: 10px;
+}
+
+.Footer-Section-logo {
+  height: 30px;
+}
+
+.Ecommerce-Website-Footer-Section {
+  background-color: #0d2436;
+
+}
+
+.Footer-Section-icon-container {
+  padding-top: 8px;
+  text-align: center;
+  background-color: #152c3e;
+  color: #5a7184;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
+
+.Footer-Section-add-description {
+  font-size: 16px;
+  font-family: roboto;
+  font-weight: 500;
+  color: #5a7184;
+  margin-top: 10px;
+}
+
+.Footer-Section-add-sub-title {
+  font-size: 16px;
+  font-family: roboto;
+  font-weight: 600;
+  color: #5a7184;
+  margin-top: 10px;
+}
+
+div,
+ul {
+  list-style-type: none;
+  color: #5a7184;
+  font-family: roboto;
+  font-size: 14px;
+  padding-left: 0;
+}
+
+.hr-line {
+  background-color: #5a7184;
+}
